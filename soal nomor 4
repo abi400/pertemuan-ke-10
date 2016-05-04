@@ -1,0 +1,39 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    string  nama[1000];
+    int nim[1000];
+    int jum;
+    int i,a;
+    a=0;
+    cout<<"masukan jumlah mahasiswa: ";
+    cin>>jum;
+    cout<<endl;
+   for(i=0;i<jum;i++){
+    //a++;
+   cout<<"masukan NIM ke-"<<i<<" : ";
+   cin>>nim[i];
+   cout<<"masukan nama ke-"<<i<<" : ";
+   cin>>nama[i];
+cout<<endl;
+   }
+   cout<<endl<<"jumlah ="<<jum<<" anggota"<<endl<<endl;
+   cout<<"NIM    NAMA"<<endl;
+   cout<<"-----------------"<<endl;
+   for(i=0;i<jum;i++){
+    cout<<nim[i]<<"      "<<nama[i];
+    cout<<endl;
+   }
+
+return 0;
+}
+
+
+
+
+
+
