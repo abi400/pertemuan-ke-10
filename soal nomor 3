@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int index,i;
+  int isi=0;
+  int jumlah;
+
+  cout<<"masukan index : ";
+  cin>>index;
+
+  int A[index];
+
+  for(i=0;i<index;i++){
+    cout<<"nilai ke-"<<isi<<" = ";
+    cin>>A[i];
+  }
+    cout<<endl<<"nilai yang anda masukan adalah ";
+    cout<<"A["<<index<<" =";
+
+    for(i=0;i<index;i++){
+    cout<<"["<<A[i]<<"] ";
+    }
+
+    cout<<endl;
+return 0;
+  }
